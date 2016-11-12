@@ -1,7 +1,7 @@
 gulp-extjs [![NPM version][npm-image]][npm-url]
 ==========
 
-A gulp plugin which resolves and sorts all dependencies of an Ext JS project so you can build without the sencha tool.
+A gulp plugin which resolves and sorts all dependencies of an Ext JS project.
 
 **Features:**
 
