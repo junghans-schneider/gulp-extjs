@@ -1,0 +1,40 @@
+{
+  "name": "gulp-extjs",
+  "version": "1.0.0",
+  "description": "Resolves and sorts all dependencies of an Ext JS project so you can build without the sencha tool",
+  "author": {
+    "name": "Til Schneider",
+    "email": "github@murfman.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junghans-schneider/gulp-extjs.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "extjs-dependencies": "^1.1.0",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1",
+    "vinyl-fs": "^2.4.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "gulp",
+    "extjs",
+    "ext",
+    "sencha",
+    "dependencies",
+    "build",
+    "order"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junghans-schneider/gulp-extjs/issues"
+  },
+  "homepage": "https://github.com/junghans-schneider/gulp-extjs#readme"
+}
