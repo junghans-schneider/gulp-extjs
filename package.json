@@ -15,10 +15,11 @@
     "extjs-dependencies": "^1.1.0",
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1",
-    "vinyl-fs": "^2.4.4"
+    "vinyl": "^2.0.0"
   },
   "devDependencies": {
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "vinyl-fs": "^2.4.4"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"

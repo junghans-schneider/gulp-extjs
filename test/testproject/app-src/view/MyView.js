@@ -1,5 +1,5 @@
 Ext.define('myapp.view.MyView', {
-    extends: 'Ext.view.View',
+    extend: 'Ext.view.View',
     mixins: {
         observable: 'Ext.util.Observable'
     }
