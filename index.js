@@ -58,11 +58,14 @@ function gulpExtjs(options) {
             opts.fileProvider = createVinylFileProvider(cwd, entryFilesByPath);
             opts.entry = entryFilePaths;
 
-            var extFileInfos = extdeps.resolve(opts);
-
-            extFileInfos.forEach(function(fileInfo) {
-                me.push(fileInfo.content.vinylFile);
-            });
+            try {
+                var extFileInfos = extdeps.resolve(opts);
+                extFileInfos.forEach(function(fileInfo) {
+                    me.push(fileInfo.content.vinylFile);
+                });
+            } catch (e) {
+                me.emit('error', new PluginError(PLUGIN_NAME, e));
+            }
 
             callback();
         });
