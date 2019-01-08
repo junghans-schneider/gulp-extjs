@@ -1,6 +1,6 @@
 {
   "name": "gulp-extjs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A gulp plugin which resolves and sorts all dependencies of an Ext JS project.",
   "author": {
     "name": "Til Schneider",
