@@ -7,8 +7,7 @@ var fs = require('fs');
 var extdeps = require('extjs-dependencies');
 var Vinyl = require('vinyl');
 var through = require('through2');
-var gutil = require('gulp-util');
-var PluginError = gutil.PluginError;
+var PluginError = require('plugin-error');
 
 const PLUGIN_NAME = 'gulp-extjs';
 
