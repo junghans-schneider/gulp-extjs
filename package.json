@@ -14,11 +14,11 @@
   "dependencies": {
     "extjs-dependencies": "^1.4.0",
     "plugin-error": "^1.0.1",
-    "through2": "^3.0.0",
-    "vinyl": "^2.0.0"
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0"
   },
   "devDependencies": {
-    "mocha": "^5.2.0",
+    "mocha": "~5.2.0",
     "vinyl-fs": "^3.0.3"
   },
   "scripts": {
